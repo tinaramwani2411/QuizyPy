@@ -1,0 +1,414 @@
+h2 {
+    color: #f5f3f3;
+    text-align: center;
+    font-size: larger;
+}
+
+h1 {
+    color: rgb(250, 158, 201);
+    text-align: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, 'Times New Roman', Times, serif;
+    background-image: url(r.avif);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+body {
+    border-image-source: logo;
+    background-image: url(final\ background.jpg);
+    background-size: cover;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40;
+    border-radius: 50%;
+}
+
+.button {
+    text-align: center;
+    padding: 25px 40px;
+}
+
+
+/* General Styles */
+
+body.loginbody {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 0;
+    /* border: 5px solid rgb(247, 247, 247);
+    border-radius: 8px;
+    border-color: whitesmoke; */
+    box-shadow: 0 0 25px whitesmoke;
+}
+
+h1#loginheading {
+    text-align: center;
+    color: #f0e7e7;
+}
+
+
+/* Button Styles */
+
+button {
+    color: white;
+    border: solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #000;
+}
+
+button:hover {
+    background-color: #5a2565;
+}
+
+span button {
+    margin: 5px;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+
+/* Form Styles */
+
+form {
+    border-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 25px whitesmoke;
+    width: 300px;
+    text-align: center;
+}
+
+.textboxdiv {
+    margin-bottom: 15px;
+}
+
+.textboxdiv input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+
+/* Goto Section Styles */
+
+.goto {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.goto button {
+    width: 80px;
+    height: 30px;
+    container: center;
+}
+
+.goto h2 {
+    color: #666;
+}
+
+#welcome h1 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-decoration: rgb(250, 250, 253) style underline;
+    background-color: rgb(24, 4, 139);
+    max-block-size: 80px;
+    font-family: sans-serif;
+}
+
+#decp h3 {
+    color: rgb(62, 36, 157);
+    font-size-adjust: 40px;
+    background-color: rgb(237, 217, 217);
+    border: 1px solid rgb(116, 224, 33);
+    font-size: Arial Round bold;
+}
+
+pre {
+    color: #fdfcfc;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-indent: 20px;
+    align-items: centre;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#level1 .box {
+    border: 5px solid #fefbfb;
+    box-shadow: 0 0 5px whitesmoke;
+    padding: 60px;
+    margin: 50px auto;
+    width: 60%;
+    background-image: url(pur.jpg);
+    box-shadow: 0 0 25px whitesmoke;
+    text-align: center;
+}
+
+#note {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#level1 body {
+    background: #001e4d;
+}
+
+.QuizyPy {
+    background: fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.box h1 {
+    font-size: 25px;
+    color: whitesmoke;
+    box-shadow: 0 0 15px whitesmoke;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0%;
+}
+
+.box h3 {
+    color: gold;
+    text-align: center;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    font-size: 18px;
+    font-family: s;
+    color: #000;
+    font-weight: 600;
+}
+
+.btn {
+    background: #fff;
+    color: crimson;
+    font-weight: 800;
+    font-style: bold;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background: thistle;
+    color: crimson;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+#prev-btn {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* .correct{
+    background: none;
+} */
+
+.incorrect {
+    background: #ff9393;
+}
+
+#level2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.box {
+    border-color: #f8f0f0;
+    border: 5px solid white;
+    box-shadow: 0 0 5px whitesmoke;
+    padding: 60px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 25px whitesmoke;
+    max-width: 500px;
+    width: 60%;
+}
+
+.Quiz {
+    margin-top: 20px;
+}
+
+#level2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+/* #about {
+    border-image-source:logo;
+    background:linear-gradient(to right top, #fff,#7b68ee,pink,steelblue);
+} */
+
+#about h2 {
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 0;
+    padding-left: 10px;
+}
+
+#decp h2 {
+    text-align: center;
+}
+
+#decp h1 {
+    color: purple;
+}
+
+#msg h2 {
+    text-align: left;
+    color: skyblue;
+}
+
+.score {
+    font-family: Arial, sans-serif;
+    background-color: #AA52AB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    position: center;
+    padding: 100px;
+    border-radius: 5px;
+    box-shadow: 0 0 25px whitesmoke;
+    text-align: left;
+    max-width: 900px;
+    width: 500%;
+    border: 5px solid brown;
+    border-color: #f8f0f0;
+}
+
+#container h1 {
+    margin-bottom: 20px;
+}
+
+#level {
+    margin: 10px 0;
+}
+
+#level h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+#level p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#total {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#total h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+#total p {
+    font-size: 20px;
+    font-weight: bold;
+    color: pink;
+    text-align: center;
+}
+
+#message {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#message h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+#message p {
+    font-size: 25px;
+    font-weight: bold;
+    color: pink;
+}
